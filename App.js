@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
+import { Box, Text } from 'react-desktop/macOs';
+export default class extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+    #outer box
+      <Box label="Box" padding="10px 30px">
+      <Box height =500>
+      <Box width =1000>
+      <Box verticalAlignment = "center">
+        <Text>'bye bye.'</Text>
+      </Box>
+      #left box
+     #right box
     );
   }
-}
-
-export default App;
